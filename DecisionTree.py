@@ -8,12 +8,6 @@ import sys
 if(len(sys.argv) != 7):
     sys.exit("Please give the required amount of arguments -  <L> <K> <training-set> <validation-set> <test-set> <to-print>")
 else:
-#    l = 10
-#    k = 10
-#    pathToTrainingFile = "D:\\MS\\CS6375 ML by Anjum Chida\Assignments\\1\\data_sets1\\training_set.csv"
-#    pathToTestFile = "D:\\MS\\CS6375 ML by Anjum Chida\Assignments\\1\\data_sets1\\test_set.csv"
-#    pathToValidationSet = "D:\\MS\\CS6375 ML by Anjum Chida\Assignments\\1\\data_sets1\\validation_set.csv"
-#    toPrint = 'no'
     l = int(sys.argv[1])
     k = int(sys.argv[2])
     trainPath = sys.argv[3]
